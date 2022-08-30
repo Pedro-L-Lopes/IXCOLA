@@ -25,7 +25,7 @@ main{
     border-radius: 200px;
 }
 
-#links-principal{
+.links-principal{
     text-align: center;
     background-color: #1b51bc;
     margin: 10px;
@@ -34,7 +34,7 @@ main{
     
 }
 
-#links-principal > a{
+.links-principal > a{
     padding: 7px;
     margin: 10px;
     text-decoration: none;
@@ -42,7 +42,7 @@ main{
     color: #ffffff;
 }
 
-#links-principal > a:hover{
+.links-principal > a:hover{
     background-color: #ffffff;
     color: #1b51bc;
 }
