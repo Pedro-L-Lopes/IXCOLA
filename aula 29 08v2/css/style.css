@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #ffffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main{
+    display: flex;
+}
+
+#logo-principal{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #003078;
+}
+
+#logo-principal :hover{
+    background: #ffffff;
+    border-radius: 200px;
+}
+
+.links-principal{
+    text-align: center;
+    background-color: #003078;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+.links-principal > a{
+    padding: 7px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.links-principal > a:hover{
+    background-color: #ffffff;
+    color: #1b51bc;
+}
+
+
+
+#area-principal{
+    
+}
+
+#area-principal> img{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+
+#sessao-principal{
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    margin: 10px;
+    padding: 0.5%;
+    border-radius: 5px;
+    background-color: #003078;
+    color: #ffffff;
+}
+
+#artigo-principal > p{
+    font-size: 4vh;
+}
+
+#artigo-principal > h1{
+    font-size: 3em;
+    margin: 15px;
+}
+
+#artigo-principal > h2{
+    font-size: 2em;
+    margin: 15px 10px 10px 10px;
+}
+
+
+
+.fotos-principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+footer{
+    text-align: center;
+    background: #003078;
+}
+
+
